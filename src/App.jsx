@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router";
 import RootLayouts from "./components/layouts/RootLayouts";
-import About from "./pages/About";
 import Error from "./pages/Error";
 import Home from "./pages/Home";
 
@@ -10,7 +9,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<RootLayouts />}>
           <Route index element={<Home />} />
-          <Route path="/about" element={<About />} />
+          {/* <Route path="/about" element={<About />} /> */}
         </Route>
         <Route path="*" element={<Error />} />
       </Routes>

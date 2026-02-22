@@ -7,7 +7,7 @@ import Button from "../common/Button";
 
 const Header = () => {
   return (
-    <div className="pt-6.5">
+    <div className="py-6.5 bg-[#EEFFF9]">
       <Container>
         <div className="flex items-center justify-between">
           <Image imgSrc={logo} />
